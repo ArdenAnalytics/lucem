@@ -42,6 +42,9 @@ body {
     top: 0;
     right: 0;
 }
+.center-block {
+    margin: auto;
+}
 /* D */
 #dismiss {
     width: 35px;
@@ -108,6 +111,29 @@ main {
     transition: margin-left .5s;
     padding: 20px;
 }
+.meeting-day {
+    background: #4DD0E1;
+    height: 170px;
+    max-width: 145px;
+    color: #fff;
+}
+.meeting-day .meeting-day-header {
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    background: rgba(0,0,0,0.5);
+}
+.meeting-day .meeting-day-body {
+    height: 105px;
+    background: rgba(255,255,255,0.3);
+}
+.meeting-day .meeting-day-footer {
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    
+}
+
 /* N */
 .navbar button {
     background-color: #fff;
