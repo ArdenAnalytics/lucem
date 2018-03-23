@@ -124,14 +124,14 @@ main {
     background: rgba(0,0,0,0.5);
 }
 .meeting-day .meeting-day-body {
-    height: 105px;
+    height: 100px;
+    padding-top: 13px;
     background: rgba(255,255,255,0.3);
 }
 .meeting-day .meeting-day-footer {
     height: 35px;
     text-align: center;
     line-height: 35px;
-    
 }
 
 /* N */
