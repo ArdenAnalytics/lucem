@@ -1,0 +1,268 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500');
+/* # */
+
+/* A */
+.align-right {
+    text-align: right;
+}
+.align-center {
+    text-align: center;
+}
+/* B */
+body {
+    font-family: 'Roboto', sans-serif !important;
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+}
+.bg-custom {
+    background-color: rgba(255,255,255,0.92) !important;
+}
+.btn-custom {
+    background: #00897B;
+    color: #fff;
+}
+.btn-custom:hover {
+    color: #fff !important;
+    opacity: 0.9;
+}
+/* C */
+.container-fluid {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+#content {
+    width: 100%;
+    min-height: 100vh;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/* D */
+#dismiss {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+#dismiss:hover {
+    cursor: pointer;
+}
+#dismiss i {
+    color: #fff;
+}
+.divider {
+  height: 1px;
+  overflow: hidden;
+  background-color: #e0e0e0;
+}
+/* E */
+
+/* F */
+footer {
+    background: #4DD0E1;
+    height: 70px;
+    color: #fff;
+    padding-top: 24px;
+    margin-top: 10px;
+}
+/* G */
+
+/* H */
+.hero {
+    background: #00BFA5;
+    height: 200px;
+    padding-top: 110px;
+    color: #fff;
+    margin-top: 75px !important;
+}
+.hr {
+    border-bottom: solid 5px #00897B  !important;
+    width: 50px;
+}
+/* I */
+.input-group input {
+    width: 90%;
+}
+.input-group .input-group-append {
+    width: 10%;
+}
+.input-group .input-group-append input {
+    text-align: center;
+}
+/* J */
+
+/* K */
+
+/* L */
+.light {
+    font-weight: 300;
+}
+/* M */
+main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+/* N */
+.navbar button {
+    background-color: #fff;
+    color: #4DD0E1;
+    border: 3px solid #4DD0E1;
+    border-radius: 10px;
+}
+.navbar button:hover {
+    background-color: #4DD0E1;
+    color: #fff;
+    border-color: #fff;
+}
+.navbar-brand {
+    font-size: 30px;
+    color: #4DD0E1 !important;
+    font-weight: 300
+}
+.nav-link {
+    color: #4DD0E1 !important;
+}
+.navbar-collapse a:hover {
+    font-weight: 500;
+    color: #00B8D4;
+}
+.navbar {
+    box-shadow: 0px 5px #00897B;
+}
+.nav-pills a {
+    color: #000 !important;
+}
+.nav-pills a.active {
+    color: #fff !important;
+    background: #00BFA5 !important;
+}
+.navbar-nav .active {
+    font-weight: 600;
+}
+/* O */
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 9998;
+}
+/* P */
+
+/* Q */
+
+/* R */
+.right {
+    float: right !important;
+}
+/* S */
+#sidenav {
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: -300px;
+    z-index: 9999;
+    background: #fff;
+    transition: all 0.3s;
+    overflow-y: scroll;
+    box-shadow: 3px 0px 3px rgba(0, 0, 0, 0.2);
+}
+#sidenav.active {
+    left: 0px;
+}
+#sidenav .userView {
+    padding: 80px;
+    background: #26A69A;
+}
+#sidenav ul p {
+    color: #fff;
+    padding: 10px;
+}
+#sidenav ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    color: #000;
+}
+#sidenav ul li a:hover {
+    background-color: #80CBC4;
+    color: #fff;
+    text-decoration: none;
+}
+#sidenav ul li.active > a, a[aria-expanded="true"] {
+    color: #fff;
+    background: #80CBC4;
+}
+#sidenavName {
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+    left: 10px;
+    top: 110px;
+}
+/* T */
+.thin {
+    font-weight: 100;
+}
+/* U */
+.userIconHero {
+    border-radius: 50%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #ffffff;
+    position: absolute;
+    right: 80px;
+    top: 220px;
+    width: 100px;
+    height: 100px;
+    background: #00B8D4;
+    z-index: 10000;
+}
+.userIconSideNav {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #ffffff;
+    position: absolute;
+    right: 13px;
+    top: 120px;
+    background: #00B8D4;
+}
+.userIconHero p {
+    width: 97px;
+    height: 100px;
+    line-height: 97px;
+    font-size: 50px;
+    font-weight: 300;
+}
+.userIconSideNav p {
+    width: 55px;
+    height: 60px;
+    line-height: 55px;
+    font-size: 32px;
+    font-weight: 300;
+    color: #fff;
+}
+/* V */
+
+/* W */
+.wrapper {
+    display: block;
+}
+/* X */
+
+/* Y */
+
+/* Z */

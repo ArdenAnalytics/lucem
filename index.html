@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Metadata  -->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="keywords" content="OneK12">
+        <!-- CSS  -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="css/login.css">
+        <!-- Title  -->
+        <title>Lucem</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-custom bg-custom fixed-top">
+                <a class="navbar-brand" href="#">Lucem</a>
+                <span class="navbar-text right"><i>Take Control of Your Education</i></span>
+            </nav>
+        </header>
+        <main>
+            <div class="login-box-container center-block">
+                <div class="login-box center-block">
+                    <div class="container-fluid">
+                        <h4 class="light align-center">Arden Public Schools</h4>
+                        <div class="hr center-block"></div>
+                        <form id="login-form">
+                            <div class="form-group">
+                                <label for="username" class="light">Username:</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon1">@</span>
+                                    </div>
+                                    <input type="text" class="form-control light" id="username" placeholder="Username">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="password" class="light">Password:</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon1">**</span>
+                                    </div>
+                                    <input type="password" class="form-control light" id="password" placeholder="Password">
+                                </div>
+                            </div>
+                            <div class="forgotCredentials">
+                                <a href="#!" class="right" style="color: #4FC3F7; text-decoration: none;">Forgot password?</a>
+                            </div>
+                            <div id="errorMessage" class="alert alert-danger hidden"><span class='aligncenter'>Incorrect password and/or username</span></div>
+                            <input type="button" class="btn btn-custom" id="login" onclick="validate()" value="Log on">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="container-fluid">
+            <p class="light right"><i>Made with <a href="http://getbootstrap.com" style="color: #4DD0E1; text-decoration: none;"><b>Boostrap</b></a></i></p>
+        </footer>
+        <!-- JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script src="js/validate.js"></script>
+    </body>
+</html>

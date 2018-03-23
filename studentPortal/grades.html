@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Metadata  -->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="keywords" content="OneK12">
+        <!-- CSS  -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="../css/main.css">
+        <!-- Title  -->
+        <title>Lucem</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div id="sidenav" class="light">
+                <div id="dismiss"><i class="material-icons">close</i></div>
+                <div class="userView">
+                    <span class="light" id="sidenavName">, </span>
+                    <div class="userIconSideNav"><p class="align-center">J</p></div>
+                </div>
+                <ul class="list-unstyled components">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="grades.html">Grades</a></li>
+                    <li><a href="extrahelp.html">Extra Help</a></li>
+                    <li class="divider"></li>
+                    <li><a href="../index.html">Logout</a></li>
+                </ul>
+            </div>
+            <div id="content">
+                <header>
+                    <nav class="navbar navbar-expand-lg navbar-custom bg-custom fixed-top">
+                        <button type="button" id="sidenavOpen" class="navbar-toggler"><i class="material-icons">menu</i></button>
+                        <a class="navbar-brand" href="#">Lucem</a>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-item nav-link" href="index.html">Home</a>
+                                <a class="nav-item nav-link active" href="grades.html">Grades</a>
+                                <a class="nav-item nav-link" href="extrahelp.html">Extra Help</a>
+                                <a class="nav-item nav-link" href="../index.html">Logout</a>
+                            </div>
+                        </div>
+                    </nav>
+                    <div class="hero container-fluid">
+                        <h1 class="light"><span id="heroLast"></span>, <span id="heroFirst"></span></h1>
+                        <div class="userIconHero"><p class="align-center">J</p></div>
+                    </div>
+                </header>
+                <main>
+                    <br><br>
+                    <h3 class="light">Grades</h3>
+                    <div class="hr"></div>
+                    <br>
+                    <div class="container-fluid">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="AP Gym" aria-label="" aria-describedby="basic-addon2" readonly>
+                            <div class="input-group-append">
+                                <input value="100%" readonly>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Algebra II" aria-label="" aria-describedby="basic-addon2" readonly>
+                            <div class="input-group-append">
+                                <a href="extrahelp.html"><input value="66%" style="height: 38px;" class="alert-danger" readonly></a>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Physics" aria-label="" aria-describedby="basic-addon2" readonly>
+                            <div class="input-group-append">
+                                <a class="extrahelp.html"><input value="78%" style="height: 38px;" class="alert-warning" readonly></a>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="English" aria-label="" aria-describedby="basic-addon2" readonly>
+                            <div class="input-group-append">
+                                <input value="85%" readonly>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="US History" aria-label="" aria-describedby="basic-addon2" readonly>
+                            <div class="input-group-append">
+                                <input value="92%" readonly>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="French" aria-label="" aria-describedby="basic-addon2" readonly>
+                            <div class="input-group-append">
+                                <input value="88%" readonly>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Marketing" aria-label="" aria-describedby="basic-addon2" readonly>
+                            <div class="input-group-append">
+                                <input value="97%" readonly>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Art" aria-label="" aria-describedby="basic-addon2" readonly>
+                            <div class="input-group-append">
+                                <input value="92%" readonly>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                <footer>
+                    <div class="row">
+                        <div class="col">
+                            <div class="container-fluid">
+                                <p><i>Made with <a href="http://getbootstrap.com" style="color: #fff; text-decoration: none;"><b>Boostrap</b></a></i></p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="container-fluid">
+                                <p class="align-right">Lucem <span class="light">by Arden Analytics</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+            <div class="overlay"></div>
+        </div>
+        <!-- JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script src="../js/helper.js"></script>
+        <script src="../js/studentbuilder.js"></script>
+        <script src="../js/side-nav.js"></script>
+    </body>
+</html>

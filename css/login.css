@@ -1,0 +1,153 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500');
+/* # */
+
+/* A */
+.align-center {
+    text-align: center;
+}
+/* B */
+body {
+    font-family: 'Roboto', sans-serif !important;
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+    background: #00BFA5;
+}
+.bg-custom {
+    background-color: #fff !important;
+}
+.btn-custom {
+    background: #00897B;
+    color: #fff;
+    margin-top: 10px;
+}
+.btn-custom:hover {
+    opacity: 0.7;
+}
+/* C */
+.container-fluid {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.valign {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+/* D */
+
+/* E */
+
+/* F */
+footer {
+    background: #fff;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 4px;
+    color: #4DD0E1;
+}
+/* G */
+
+/* H */
+.hr {
+    border-bottom: solid 5px #00897B  !important;
+    width: 70px;
+    margin-bottom: 10px;
+}
+.hidden {
+    display: none;
+}
+/* I */
+
+/* J */
+
+/* K */
+
+/* L */
+.login-box-container {
+    background: rgba(255,255,255,0.6);
+    width: 80%;
+    margin-top: 150px;
+    min-height: 350px;
+    max-width: 700px;
+    min-width: 400px;
+    padding: 5px;
+}
+.login-box {
+    background: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    min-height: 350px;
+}
+.light {
+    font-weight: 300;
+}
+/* M */
+
+/* N */
+.navbar button {
+    background-color: #fff;
+    color: #4DD0E1;
+    border: 3px solid #4DD0E1;
+    border-radius: 10px;
+}
+.navbar button:hover {
+    background-color: #4DD0E1;
+    color: #fff;
+    border-color: #fff;
+}
+.navbar-brand {
+    font-size: 30px;
+    color: #4DD0E1 !important;
+    font-weight: 300;
+}
+.navbar-text {
+    color: #4DD0E1 !important;
+    font-weight: 300;
+}
+.nav-link {
+    color: #4DD0E1 !important;
+}
+.navbar-collapse a:hover {
+    font-weight: 500;
+    color: #00B8D4;
+}
+.navbar {
+    box-shadow: 0px 5px #00897B;
+}
+/* O */
+
+/* P */
+
+/* Q */
+
+/* R */
+.right {
+    float: right !important;
+}
+/* S */
+
+/* T */
+
+/* U */
+
+/* V */
+
+/* W */
+
+/* X */
+
+/* Y */
+
+/* Z */
